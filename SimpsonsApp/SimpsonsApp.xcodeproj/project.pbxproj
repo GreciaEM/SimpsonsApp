@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B51E9A3D250FE6E6003FF155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E9A3C250FE6E6003FF155 /* AppDelegate.swift */; };
 		B51E9A3F250FE6E6003FF155 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E9A3E250FE6E6003FF155 /* SceneDelegate.swift */; };
-		B51E9A41250FE6E6003FF155 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E9A40250FE6E6003FF155 /* ViewController.swift */; };
 		B51E9A44250FE6E6003FF155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51E9A42250FE6E6003FF155 /* Main.storyboard */; };
 		B51E9A46250FE6EC003FF155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51E9A45250FE6EC003FF155 /* Assets.xcassets */; };
 		B51E9A49250FE6EC003FF155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51E9A47250FE6EC003FF155 /* LaunchScreen.storyboard */; };
+		B51E9A51250FE9C7003FF155 /* CharactersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E9A50250FE9C7003FF155 /* CharactersCollectionViewController.swift */; };
+		B51E9A53250FF2D6003FF155 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E9A52250FF2D6003FF155 /* CharacterCollectionViewCell.swift */; };
+		B51E9A55251000AC003FF155 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E9A54251000AC003FF155 /* DetailViewController.swift */; };
+		B51E9A5725100199003FF155 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E9A5625100199003FF155 /* Quote.swift */; };
+		B51E9A59251001A6003FF155 /* QuotesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E9A58251001A6003FF155 /* QuotesAPI.swift */; };
+		B51E9A5B2510028A003FF155 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E9A5A2510028A003FF155 /* Extensions.swift */; };
+		FAE0FB2CC0F4BF1AA918AF29 /* Pods_SimpsonsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1182D453027229F3C6BA350 /* Pods_SimpsonsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98EACF3359610059C8A843DA /* Pods-SimpsonsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpsonsApp.debug.xcconfig"; path = "Target Support Files/Pods-SimpsonsApp/Pods-SimpsonsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A1C89FD3B0E3C89FF47CD3BD /* Pods-SimpsonsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpsonsApp.release.xcconfig"; path = "Target Support Files/Pods-SimpsonsApp/Pods-SimpsonsApp.release.xcconfig"; sourceTree = "<group>"; };
 		B51E9A39250FE6E6003FF155 /* SimpsonsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpsonsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51E9A3C250FE6E6003FF155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B51E9A3E250FE6E6003FF155 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B51E9A40250FE6E6003FF155 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B51E9A43250FE6E6003FF155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B51E9A45250FE6EC003FF155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B51E9A48250FE6EC003FF155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B51E9A4A250FE6EC003FF155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51E9A50250FE9C7003FF155 /* CharactersCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionViewController.swift; sourceTree = "<group>"; };
+		B51E9A52250FF2D6003FF155 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		B51E9A54251000AC003FF155 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B51E9A5625100199003FF155 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		B51E9A58251001A6003FF155 /* QuotesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesAPI.swift; sourceTree = "<group>"; };
+		B51E9A5A2510028A003FF155 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C1182D453027229F3C6BA350 /* Pods_SimpsonsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpsonsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE0FB2CC0F4BF1AA918AF29 /* Pods_SimpsonsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72F29CE40763C424BE5A0AFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98EACF3359610059C8A843DA /* Pods-SimpsonsApp.debug.xcconfig */,
+				A1C89FD3B0E3C89FF47CD3BD /* Pods-SimpsonsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D0DFFB0501611F10670CBC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1182D453027229F3C6BA350 /* Pods_SimpsonsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B51E9A30250FE6E6003FF155 = {
 			isa = PBXGroup;
 			children = (
 				B51E9A3B250FE6E6003FF155 /* SimpsonsApp */,
 				B51E9A3A250FE6E6003FF155 /* Products */,
+				72F29CE40763C424BE5A0AFA /* Pods */,
+				8D0DFFB0501611F10670CBC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +92,16 @@
 			children = (
 				B51E9A3C250FE6E6003FF155 /* AppDelegate.swift */,
 				B51E9A3E250FE6E6003FF155 /* SceneDelegate.swift */,
-				B51E9A40250FE6E6003FF155 /* ViewController.swift */,
 				B51E9A42250FE6E6003FF155 /* Main.storyboard */,
 				B51E9A45250FE6EC003FF155 /* Assets.xcassets */,
 				B51E9A47250FE6EC003FF155 /* LaunchScreen.storyboard */,
 				B51E9A4A250FE6EC003FF155 /* Info.plist */,
+				B51E9A50250FE9C7003FF155 /* CharactersCollectionViewController.swift */,
+				B51E9A52250FF2D6003FF155 /* CharacterCollectionViewCell.swift */,
+				B51E9A54251000AC003FF155 /* DetailViewController.swift */,
+				B51E9A5625100199003FF155 /* Quote.swift */,
+				B51E9A58251001A6003FF155 /* QuotesAPI.swift */,
+				B51E9A5A2510028A003FF155 /* Extensions.swift */,
 			);
 			path = SimpsonsApp;
 			sourceTree = "<group>";
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B51E9A4D250FE6EC003FF155 /* Build configuration list for PBXNativeTarget "SimpsonsApp" */;
 			buildPhases = (
+				C388FF6A54CC9A67D56D7774 /* [CP] Check Pods Manifest.lock */,
 				B51E9A35250FE6E6003FF155 /* Sources */,
 				B51E9A36250FE6E6003FF155 /* Frameworks */,
 				B51E9A37250FE6E6003FF155 /* Resources */,
+				3B902C60ED0B24822A974399 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +174,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B902C60ED0B24822A974399 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpsonsApp/Pods-SimpsonsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpsonsApp/Pods-SimpsonsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpsonsApp/Pods-SimpsonsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C388FF6A54CC9A67D56D7774 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpsonsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B51E9A35250FE6E6003FF155 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B51E9A41250FE6E6003FF155 /* ViewController.swift in Sources */,
+				B51E9A53250FF2D6003FF155 /* CharacterCollectionViewCell.swift in Sources */,
+				B51E9A51250FE9C7003FF155 /* CharactersCollectionViewController.swift in Sources */,
+				B51E9A55251000AC003FF155 /* DetailViewController.swift in Sources */,
+				B51E9A5B2510028A003FF155 /* Extensions.swift in Sources */,
 				B51E9A3D250FE6E6003FF155 /* AppDelegate.swift in Sources */,
+				B51E9A59251001A6003FF155 /* QuotesAPI.swift in Sources */,
+				B51E9A5725100199003FF155 /* Quote.swift in Sources */,
 				B51E9A3F250FE6E6003FF155 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +370,13 @@
 		};
 		B51E9A4E250FE6EC003FF155 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98EACF3359610059C8A843DA /* Pods-SimpsonsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SEHP955C97;
 				INFOPLIST_FILE = SimpsonsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +384,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gem.SimpsonsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B51E9A4F250FE6EC003FF155 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C89FD3B0E3C89FF47CD3BD /* Pods-SimpsonsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SEHP955C97;
 				INFOPLIST_FILE = SimpsonsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gem.SimpsonsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
